@@ -1,0 +1,82 @@
+
+#header {
+    min-height: 0em;
+}
+
+#header img {
+    display: none;
+}
+
+#header h1 {
+    font-size: 1.5 em;
+}
+#header h2 {
+    font-size: 1.2 em;    
+}
+
+/* MENU */
+
+#menu {
+    float: none;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
+
+#menu ul{
+    width: 50%;
+    margin: auto;
+}
+
+/* CONTENUTO */
+
+.contenutoGenerale {
+    margin-left: 0em;
+    padding: 0.5em;
+    width: 98%;
+}
+
+#contentHomePage {
+    width: 65%;
+}
+
+#charactersStory{
+    width: 97%;
+    
+}
+
+table{
+    font-size: 0.7em;
+    width: 95%;
+}
+
+thead, tfoot {
+    display: none;
+}
+
+td[data-title]:before{
+    content: attr(data-title) ":\00A0";
+
+}
+
+tr, td, th {
+    display: block;
+}
+
+th{
+    background-color: #BD091B;
+    color: white;
+}
+
+table, tbody , tr, th, td {
+    border: none;
+}
+
+th, td{
+    border: 1px solid #000;
+    border-top: none;
+}
+
+th:first-child{
+    border-top: 1px solid #000;
+}
